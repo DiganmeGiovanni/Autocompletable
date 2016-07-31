@@ -1,7 +1,12 @@
 
 $(document).ready(function () {
 
-  var autocompletableField = $('#db-autocompletable-input').autocomplete({
+  /**
+   * Configure the autocompletable field using the
+   * Devbridge JQuery plugin:
+   * https://www.devbridge.com/sourcery/components/jquery-autocomplete/
+   */
+  $('#db-autocompletable-input').autocomplete({
     serviceUrl: 'http://localhost:3000/search/country',
     onSelect: function (suggestion) {
       var countryCode = suggestion.data.code
