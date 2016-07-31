@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Autocomplete samples</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row"><br/>
+        <div class="col-xs-12 text-center">
+          <h1>Autocompletable fields</h1>
+        </div>
+      </div>
+
+      <!-- Devbridge autocomplete -->
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-3"><br><br>
+          <div class="">
+              <label for="db-autocompletable">Search country by name</label>
+              <input type="text" id="db-autocompletable-input" class="form-control">
+          </div>
+        </div>
+      </div>
+
+      <!-- Selected countries list -->
+      <div class="row">
+        <div class="col-xs-12"><br><br>
+          <table id="countries-table" class="table table-bordered table-striped">
+            <thead>
+              <th>Country code</th>
+              <th>Country name</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Devbridge Autocomplete -->
+    <script src="./lib/jquery.autocomplete.min.js"></script>
+    <script src="./js/autocompletable.js"></script>
+  </body>
+</html>

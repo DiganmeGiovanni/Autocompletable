@@ -1,0 +1,11 @@
+
+.autocomplete-suggestions {
+  background: #FFF;
+  border: 1px solid #CCC;
+  color: #333;
+  padding: 5px;
+}
+
+.autocomplete-suggestion {
+  font-weight: bold;
+}
