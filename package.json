@@ -1,0 +1,11 @@
+{
+  "name": "autocomplete",
+  "version": "1.0.0",
+  "description": "A lot of samples about autocompletable text fields",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovanni Aguirre",
+  "license": "ISC"
+}
